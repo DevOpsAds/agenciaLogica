@@ -1,0 +1,190 @@
+{
+    "person": {
+      "name": "Pessoal",
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "top_skills": [
+        {
+          "name": "Problem Solving",
+          "icon": "<i class=\"ion-ios-settings-outline\"></i>",
+          "description": "Capacidade de analisar problemas complexos, identificar soluções eficazes e implementá-las de forma criativa."
+        },
+        {
+          "name": "Persistência",
+          "icon": "<i class=\"ion-ios-timer-outline\"></i>",
+          "description": "Determinação e capacidade de continuar trabalhando em direção a objetivos, mesmo diante de desafios e obstáculos."
+        },
+        {
+          "name": "Computer Hardware",
+          "icon": "<i class=\"ion-ios-laptop-outline\"></i>",
+          "description": "Conhecimento em montagem, manutenção e reparo de hardware de computadores, garantindo seu funcionamento adequado."
+        },
+        {
+          "name": "Analytical Skills",
+          "icon": "<i class=\"ion-ios-analytics-outline\"></i>",
+          "description": "Habilidade em analisar informações e dados de forma crítica, identificando padrões, tendências e insights úteis."
+        },
+        {
+          "name": "Artificial Intelligence (AI)",
+          "icon": "<i class=\"ion-ios-lightbulb-outline\"></i>",
+          "description": "Experiência em desenvolver e aplicar técnicas de inteligência artificial para resolver problemas complexos e automatizar processos."
+        }
+      ],
+      "experiences": [
+        {
+          "title": "Analista Desenvolvedor de Sistemas e Entusiasta de Tecnologia",
+          "icon": "<i class=\"ion-code-working\"></i>",
+          "role": "Freelance",
+          "duration": "Apr 2012 - Present",
+          "years": "12 anos",
+          "description": "Desenvolvedor de sistemas e entusiasta de tecnologia com experiência em Inteligência Artificial (IA), Machine Learning e outras habilidades."
+        },
+        {
+          "title": "Engenheiro de Software e Desenvolvedor Autônomo",
+          "icon": "<i class=\"ion-code-working\"></i>",
+          "role": "Freelance",
+          "duration": "Apr 2012 - Dec 2023",
+          "years": "11 anos e 9 meses",
+          "description": "Desenvolvedor de software e técnico de manutenção de eletrônicos autônomo, especializado em JavaScript, Python, IA, Machine Learning e automação."
+        },
+        {
+          "title": "Tecnólogo em Tecnologia da Informação, Análise de Sistemas",
+          "icon": "<i class=\"ion-university\"></i>",
+          "institution": "UniCesumar",
+          "description": "Tecnólogo em Tecnologia da Informação com foco em Análise de Sistemas, com conhecimentos em Human-Centered Computing e outras áreas."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Python (Programming Language)",
+          "icon": "<i class=\"ion-code\"></i>",
+          "description": "Experiência em desenvolvimento de software utilizando Python, uma linguagem versátil e amplamente utilizada."
+        },
+        {
+          "name": "Front-End Development",
+          "icon": "<i class=\"ion-code-working\"></i>",
+          "description": "Capacidade de criar interfaces de usuário interativas e visualmente atrativas para aplicações web."
+        },
+        {
+          "name": "JavaScript",
+          "icon": "<i class=\"ion-code\"></i>",
+          "description": "Conhecimento profundo da linguagem de programação JavaScript, essencial para o desenvolvimento web moderno."
+        },
+        {
+          "name": "Full-Stack Development",
+          "icon": "<i class=\"ion-code-working\"></i>",
+          "description": "Competência em desenvolver tanto o lado do cliente (front-end) quanto o lado do servidor (back-end) de aplicações web."
+        },
+        {
+          "name": "Back-End Web Development",
+          "icon": "<i class=\"ion-code-working\"></i>",
+          "description": "Experiência em desenvolver a lógica de negócios e a funcionalidade de servidores web e aplicativos."
+        },
+        {
+          "name": "Software Development",
+          "icon": "<i class=\"ion-code\"></i>",
+          "description": "Experiência em todas as etapas do ciclo de vida do desenvolvimento de software, desde o planejamento até a implementação e manutenção."
+        },
+        {
+          "name": "Mobile Applications",
+          "icon": "<i class=\"ion-phone-portrait\"></i>",
+          "description": "Habilidade em desenvolver aplicativos móveis para Android e iOS, melhorando a experiência do usuário em dispositivos móveis."
+        },
+        {
+          "name": "Project Management",
+          "icon": "<i class=\"ion-settings\"></i>",
+          "description": "Capacidade de planejar, coordenar e executar projetos de software de forma eficiente, garantindo sua entrega dentro do prazo e do orçamento."
+        },
+        {
+          "name": "Software Architecture",
+          "icon": "<i class=\"ion-construct\"></i>",
+          "description": "Conhecimento em projetar e desenvolver arquiteturas de software escaláveis e robustas para atender às necessidades dos clientes."
+        },
+        {
+          "name": "Analytical Skills",
+          "icon": "<i class=\"ion-ios-analytics-outline\"></i>",
+          "description": "Capacidade de analisar problemas complexos, identificar padrões e tendências e propor soluções eficazes."
+        },
+        {
+          "name": "Technical Support",
+          "icon": "<i class=\"ion-ios-headset-outline\"></i>",
+          "description": "Experiência em fornecer suporte técnico para resolver problemas de software e hardware, garantindo o bom funcionamento dos sistemas."
+        },
+        {
+          "name": "Attention to Detail",
+          "icon": "<i class=\"ion-ios-search\"></i>",
+          "description": "Capacidade de prestar atenção aos detalhes durante o desenvolvimento de software, garantindo a precisão e qualidade do produto final."
+        },
+        {
+          "name": "Manual Dexterity",
+          "icon": "<i class=\"ion-hammer\"></i>",
+          "description": "Habilidade em manipular ferramentas e equipamentos com destreza, especialmente na manutenção de hardware de computadores."
+        },
+        {
+          "name": "Project Planning",
+          "icon": "<i class=\"ion-clipboard\"></i>",
+          "description": "Habilidade em criar planos de projeto detalhados, definindo metas, prazos e recursos necessários para alcançar o sucesso."
+        },
+        {
+          "name": "Prototyping",
+          "icon": "<i class=\"ion-hammer\"></i>",
+          "description": "Capacidade de criar protótipos rápidos e iterativos de software para validar conceitos e obter feedback dos usuários."
+        },
+        {
+          "name": "Mobile Devices",
+          "icon": "<i class=\"ion-iphone\"></i>",
+          "description": "Conhecimento em desenvolver e testar aplicativos para dispositivos móveis, garantindo sua compatibilidade e desempenho em diferentes plataformas."
+        },
+        {
+          "name": "User Interface Design",
+          "icon": "<i class=\"ion-ios-color-palette\"></i>",
+          "description": "Experiência em projetar interfaces de usuário intuitivas e visualmente atraentes para aplicativos web e móveis."
+        },
+        {
+          "name": "Graphic Design",
+          "icon": "<i class=\"ion-ios-color-wand-outline\"></i>",
+          "description": "Conhecimento em design gráfico para criar elementos visuais atraentes, como logotipos, ícones e ilustrações."
+        },
+        {
+          "name": "Logo Design",
+          "icon": "<i class=\"ion-ios-compose-outline\"></i>",
+          "description": "Habilidade em criar logotipos distintos e memoráveis que representam a identidade visual de uma marca ou empresa."
+        },
+        {
+          "name": "Business Process Improvement",
+          "icon": "<i class=\"ion-ios-cog-outline\"></i>",
+          "description": "Experiência em identificar e implementar melhorias nos processos de negócios para aumentar a eficiência e reduzir custos."
+        },
+        {
+          "name": "Strategic Planning",
+          "icon": "<i class=\"ion-ios-trending-up\"></i>",
+          "description": "Capacidade de desenvolver e implementar estratégias de longo prazo para alcançar os objetivos organizacionais e impulsionar o crescimento."
+        },
+        {
+          "name": "Product Development",
+          "icon": "<i class=\"ion-ios-paper-outline\"></i>",
+          "description": "Competência em transformar ideias em produtos de software viáveis, alinhados com as necessidades do mercado."
+        },
+        {
+          "name": "Problem Solving",
+          "icon": "<i class=\"ion-ios-settings-outline\"></i>",
+          "description": "Capacidade de analisar e resolver problemas de forma eficiente, encontrando soluções criativas e pragmáticas."
+        },
+        {
+          "name": "Computer Hardware",
+          "icon": "<i class=\"ion-ios-laptop-outline\"></i>",
+          "description": "Conhecimento em montagem, manutenção e reparo de hardware de computadores, garantindo seu funcionamento adequado."
+        },
+        {
+          "name": "Artificial Intelligence (AI)",
+          "icon": "<i class=\"ion-ios-lightbulb-outline\"></i>",
+          "description": "Experiência em desenvolver e aplicar técnicas de inteligência artificial, como machine learning e processamento de linguagem natural, para resolver problemas complexos."
+        },
+        {
+          "name": "Persistência",
+          "icon": "<i class=\"ion-ios-timer-outline\"></i>",
+          "description": "Determinação e capacidade de persistir diante de desafios, buscando continuamente soluções e melhorias."
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,129 @@
+{
+    "categories": [
+      {
+        "category_name": {
+          "name": "Desenvolvimento Tecnológico",
+          "icon": "<i class=\"ion-code-working\"></i>",
+          "description": "Serviços focados no desenvolvimento de soluções tecnológicas personalizadas para atender às necessidades específicas das empresas.",
+          "skills_required": ["Desenvolvimento Web", "Desenvolvimento Mobile", "Inteligência Artificial", "Machine Learning", "UI/UX Design", "Outras habilidades"]
+        },
+        "services": [
+          {
+            "service_name": "Desenvolvimento de Plataforma de E-commerce",
+            "icon": "<i class=\"ion-bag\"></i>",
+            "description": "Desenvolvimento de uma plataforma de e-commerce completa, incluindo design personalizado, funcionalidades avançadas de comércio eletrônico, integração de sistemas de pagamento e segurança de dados.",
+            "skills_required": ["Desenvolvimento Web", "E-commerce", "UI/UX Design", "Integração de Pagamentos", "Segurança de Dados"]
+          },
+          {
+            "service_name": "Desenvolvimento de Software Personalizado",
+            "icon": "<i class=\"ion-code-working\"></i>",
+            "description": "Desenvolvimento de aplicativos, sistemas ou plataformas personalizadas para atender às necessidades específicas da empresa.",
+            "skills_required": ["Programação", "Arquitetura de Software", "Bancos de Dados"]
+          },
+          {
+            "service_name": "Desenvolvimento de Aplicativos Móveis",
+            "icon": "<i class=\"ion-iphone\"></i>",
+            "description": "Criação de aplicativos móveis para Android e iOS para melhorar a experiência do cliente ou otimizar processos internos.",
+            "skills_required": ["Desenvolvimento Mobile", "UI/UX Design", "Testes de Aplicativos"]
+          },
+          {
+            "service_name": "Desenvolvimento de Inteligência Artificial (IA)",
+            "icon": "<i class=\"ion-flash\"></i>",
+            "description": "Implementação de soluções de IA, como chatbots, sistemas de recomendação ou análise preditiva, para automatizar tarefas e melhorar a tomada de decisões.",
+            "skills_required": ["Inteligência Artificial", "Aprendizado de Máquina", "Processamento de Linguagem Natural"]
+          }
+        ]
+      },
+      {
+        "category_name": {
+          "name": "Consultoria e Análise",
+          "icon": "<i class=\"ion-search\"></i>",
+          "description": "Serviços de consultoria e análise para ajudar as empresas a entender suas necessidades tecnológicas e desenvolver estratégias eficazes para implementação.",
+          "skills_required": ["Consultoria", "Análise de Dados", "Análise de Processos", "Planejamento Estratégico", "Outras habilidades"]
+        },
+        "services": [
+          {
+            "service_name": "Consultoria em Transformação Digital",
+            "icon": "<i class=\"ion-gear-a\"></i>",
+            "description": "Avaliação da infraestrutura tecnológica atual da empresa e desenvolvimento de estratégias para a implementação de tecnologias emergentes.",
+            "skills_required": ["Consultoria", "Análise de Negócios", "Planejamento Estratégico"]
+          },
+          {
+            "service_name": "Consultoria em Logística e Análise de Processos",
+            "icon": "<i class=\"ion-android-car\"></i>",
+            "description": "Oferecer uma análise detalhada dos processos de logística da empresa e identificar áreas de melhoria, sugerindo soluções tecnológicas apropriadas.",
+            "skills_required": ["Logística", "Análise de Processos", "Consultoria", "Desenvolvimento de Software"]
+          },
+          {
+            "service_name": "Análise de Dados e Business Intelligence (BI)",
+            "icon": "<i class=\"ion-stats-bars\"></i>",
+            "description": "Coleta, análise e interpretação de dados para fornecer insights acionáveis e apoiar a tomada de decisões informadas.",
+            "skills_required": ["Análise de Dados", "Machine Learning", "Visualização de Dados"]
+          },
+          {
+            "service_name": "Avaliação de Tecnologias Emergentes",
+            "icon": "<i class=\"ion-speedometer\"></i>",
+            "description": "Manter-se atualizado sobre as últimas tecnologias e tendências na área de logística e oferecer orientação sobre quais tecnologias podem ser mais promissoras para resolver o problema específico da empresa.",
+            "skills_required": ["Pesquisa de Tecnologia", "Avaliação de Tecnologias", "Tendências de Mercado", "Logística"]
+          }
+        ]
+      },
+      {
+        "category_name": {
+          "name": "Gestão e Treinamento",
+          "icon": "<i class=\"ion-wrench\"></i>",
+          "description": "Serviços de gestão e treinamento para garantir que as empresas possuam as habilidades e conhecimentos necessários para implementar e manter soluções tecnológicas eficazes.",
+          "skills_required": ["Gestão de Projetos", "Treinamento", "Desenvolvimento de Pessoas", "Outras habilidades"]
+        },
+        "services": [
+          {
+            "service_name": "Integração de Sistemas e Automação de Processos",
+            "icon": "<i class=\"ion-settings\"></i>",
+            "description": "Integração de sistemas existentes e automação de processos para aumentar a eficiência operacional e reduzir erros manuais.",
+            "skills_required": ["Integração de Sistemas", "Automatização de Processos", "APIs"]
+          },
+          {
+            "service_name": "Segurança da Informação e Gestão de Riscos",
+            "icon": "<i class=\"ion-lock-combination\"></i>",
+            "description": "Implementação de medidas de segurança cibernética e gestão de riscos para proteger os dados e sistemas da empresa contra ameaças.",
+            "skills_required": ["Segurança da Informação", "Gestão de Riscos", "Conformidade Regulatória"]
+          },
+          {
+            "service_name": "Treinamento e Capacitação em Tecnologia",
+            "icon": "<i class=\"ion-university\"></i>",
+            "description": "Treinamento personalizado para capacitar os funcionários da empresa a utilizar efetivamente novas tecnologias e ferramentas.",
+            "skills_required": ["Educação em Tecnologia", "Capacitação de Usuários", "Desenvolvimento de Conteúdo"]
+          }
+        ]
+      },
+      {
+        "category_name": {
+          "name": "Inovação e Estratégia",
+          "icon": "<i class=\"ion-lightbulb\"></i>",
+          "description": "Serviços focados em promover a inovação e desenvolver estratégias eficazes para implementar soluções tecnológicas de forma bem-sucedida.",
+          "skills_required": ["Inovação", "Estratégia", "Planejamento", "Outras habilidades"]
+        },
+        "services": [
+          {
+            "service_name": "Desenvolvimento Ágil",
+            "icon": "<i class=\"ion-flash\"></i>",
+            "description": "Adotar uma abordagem ágil para o desenvolvimento de software, permitindo que a empresa experimente e itere rapidamente diferentes soluções tecnológicas até encontrar a mais adequada.",
+            "skills_required": ["Desenvolvimento Ágil", "Metodologia Scrum", "Kanban"]
+          },
+          {
+            "service_name": "Desenvolvimento de Prova de Conceito (PoC)",
+            "icon": "<i class=\"ion-lightbulb\"></i>",
+            "description": "Criar um protótipo inicial de diferentes soluções tecnológicas, como aplicativos móveis, sistemas de gerenciamento de frota ou algoritmos de otimização de rota, para demonstrar como cada uma pode abordar o problema.",
+            "skills_required": ["Desenvolvimento de Software", "Prototipagem", "Análise de Processos", "Inovação"]
+          },
+          {
+            "service_name": "Workshop de Inovação",
+            "icon": "<i class=\"ion-ios-flask-outline\"></i>",
+            "description": "Realizar sessões de brainstorming e workshops com a equipe da empresa para explorar possíveis soluções, discutir tecnologias emergentes e identificar oportunidades de inovação na logística.",
+            "skills_required": ["Inovação", "Workshops Facilitator", "Brainstorming", "Tecnologias Emergentes"]
+          }
+        ]
+      }
+    ]
+  }
+  

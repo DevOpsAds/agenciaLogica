@@ -1,0 +1,180 @@
+{% load static %}
+<style>
+    .service-header-btn_card {
+        display: inline-block;
+        padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
+        background-color: #007bff; /* Cor de fundo do botão */
+        color: #fff; /* Cor do texto do botão */
+        border-radius: 5px; /* Borda arredondada */
+        text-decoration: none; /* Remover sublinhado do texto */
+        transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+    }
+
+    .service-header-btn_card:hover {
+        background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+        color:aqua;
+    }
+</style>
+{% url 'about' as about_url %}
+
+<section id="feature">
+    <div class="container">
+        <div class="section-heading">
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Ofertas de Meu Trabalho</h1>
+            <p class="wow fadeInDown" data-wow-delay=".5s">
+                Confira algumas das ofertas e habilidades que posso oferecer com base nos meus projetos reais e experiência.
+                
+                <a href="https://t.me/+5531983774927" target="_blank">
+                    <!-- Adicione o ícone do Telegram -->
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=+5531983774927" target="_blank">
+                    <!-- Adicione o ícone do WhatsApp -->
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </p>
+
+            {% for category in categories %}
+            <div class="category">
+                <button class="category-header">{{ category.category_name.name }}</button>
+                <div class="category-content" style="display: none;">
+                    <p>{{ category.category_name.description }}</p>
+                    <div class="row">
+                        {% for service in category.services %}
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="service">
+                                <a href="{{ about_url }}" class="service-header-btn_card">{{ service.service_name }}</a>
+
+                                <div class="service-content" style="display: block;">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <div class="icon">
+                                                {{ service.icon | safe }}
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>{{ service.description }}</p>
+                                            <p><strong>Skills Required:</strong></p>
+                                            <ul>
+                                                {% for skill in service.skills_required %}
+                                                <li>{{ skill }}</li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% block css %}
+<style>
+    .category-header {
+      background-color: #414141;
+      background: cornflowerblue;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; /* Adicionando transição suave */
+    }
+
+    .category-header:hover {
+        background-color: #555555;
+    }
+
+    .category-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    .category-content.active {
+        max-height: 1000px; /* Alterado para um valor alto para garantir a expansão total */
+        overflow: visible;
+    }
+
+    .service {
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .service:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .service-header {
+        background-color: #414141;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .service-header:hover {
+        background-color: #555555;
+    }
+
+    .service-content {
+        display: block;
+        max-height: auto; /* Alteração para ajustar automaticamente a altura */
+    }
+
+    .media {
+        display: flex;
+        align-items: center;
+    }
+
+    .media-left {
+        margin-right: 20px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #555;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+</style>
+{% endblock css %}
+
+{% block js %}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var categoryHeaders = document.querySelectorAll(".category-header");
+        var serviceContent = document.querySelectorAll(".service-content");
+        categoryHeaders.forEach(function (header) {
+            header.addEventListener("click", function () {
+                var categoryContent = this.nextElementSibling;
+                if (categoryContent.style.display === "none") {
+                    categoryContent.style.display = "block";
+                    serviceContent.style.display = "block";
+                } else {
+                     serviceContent.style.display = "none";
+                    categoryContent.style.display = "none";
+                }
+            });
+        });
+    });
+</script>
+{% endblock js %}

@@ -1,0 +1,36 @@
+version: '3.8'
+
+
+services:
+  redis:
+    image: redis:7.0.11-alpine
+  
+  django:
+    container_name: django
+    build:
+      context: ./alacl_project
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./alacl_project:/usr/src/app/
+    ports:
+      - 8001:8000
+    environment:
+      - DEBUG=1
+      - SECRET_KEY= ksnD54631lkjlisdLKNMliknaliLINLI41541F1FDSKN
+      - ALLOWED_HOSTS=127.0.0.1,localhost
+    depends_on:
+      - redis
+
+      
+  celery:
+    container_name: celery
+    build:
+      context: ./alacl_project
+    volumes:
+      - ./alacl_project:/usr/src/app/
+    environment:
+      - DEBUG=1
+      - SECRET_KEY= ksnD54631lkjlisdLKNMliknaliLINLI41541F1FDSKN
+      - ALLOWED_HOSTS=127.0.0.1,localhost
+    depends_on:
+      - redis

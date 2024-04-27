@@ -1,0 +1,30 @@
+{
+    "experiences": [
+      {
+        "title": "Analista Desenvolvedor de Sistemas e Entusiasta de Tecnologia",
+        "icon": "<i class=\"ion-code-working\"></i>",
+        "image": "https://i.pinimg.com/564x/05/95/47/059547b6b3590b9772c79892cbf06692.jpg",
+        "role": "Freelance",
+        "duration": "Apr 2012 - Present",
+        "years": "12 anos",
+        "description": "Desenvolvedor de sistemas e entusiasta de tecnologia com experiência em IA, ML e outras habilidades."
+      },
+      {
+        "title": "Engenheiro de Software e Desenvolvedor Autônomo",
+        "icon": "<i class=\"ion-code-working\"></i>",
+        "image": "https://i.pinimg.com/236x/64/b2/a3/64b2a34bc9b8845433e50ed4c8ef47ac.jpg",
+        "role": "Freelance",
+        "duration": "Apr 2012 - Dec 2023",
+        "years": "11 anos e 9 meses",
+        "description": "Desenvolvedor de software autônomo, especializado em JavaScript, Python, IA, ML e automação."
+      },
+      {
+        "title": "Freelance da Informação, Análise de Sistemas",
+        "icon": "<i class=\"ion-university\"></i>",
+        "image": "https://i.pinimg.com/564x/c2/35/96/c2359654b593167e7a23cbb2543ba002.jpg",
+        "institution": "UniCesumar",
+        "description": "Tecnólogo em TI com foco em Análise de Sistemas, conhecimentos em HCI e outras áreas."
+      }
+    ]
+  }
+  

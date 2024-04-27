@@ -1,0 +1,40 @@
+{
+    "products": [
+      {
+        "name": "Análise de Conversas do WhatsApp",
+        "details": "Administra conteúdos do WhatsApp para apresentar com consistência os fatos.",
+        "image_link": "https://i.pinimg.com/564x/8c/96/5b/8c965b1446a4eb7bc16c790167ee2d07.jpg"
+      },
+      {
+        "name": "Software de Automação para Sistema EGP Contabilidade",
+        "details": "Automatiza lançamentos de notas fiscais e controle de prestação de contas.",
+        "image_link": "https://play-lh.googleusercontent.com/if4Gyn8xiOoGQpddaFsM8DkJHIDVZQx4z1M5Z501IP4fipXwPZ0hjFpKJU4s4tKr-9Fu=w240-h480-rw"
+      },
+      {
+        "name": "Centenas de Scripts de Automação para Linux (.sh)",
+        "details": "Coleção de scripts para automação de reparos e tarefas no Linux.",
+        "image_link": "https://i.pinimg.com/236x/89/ed/8e/89ed8ee2bf05851fbc68aacf6319c25b.jpg"
+      },
+      {
+        "name": "Sites de E-commerce e Portfólios",
+        "details": "Desenvolvimento de sites de e-commerce e portfólios.",
+        "image_link": "https://i.pinimg.com/236x/34/25/fa/3425fa98d9dffc52b7dd22f6cec64ae7.jpg"
+      },
+      {
+        "name": "Aplicativo Mobile",
+        "details": "Desenvolvimento de aplicativo mobile para diversas finalidades.",
+        "image_link": "https://i.pinimg.com/736x/35/91/13/3591134829b8a4122dd16a11ecd31939.jpg"
+      },
+      {
+        "name": "Projetos de Automação e Robótica com Arduino",
+        "details": "Projetos de automação e robótica utilizando Arduino.",
+        "image_link": "https://i.pinimg.com/236x/98/59/28/98592889ac7a67ff8dfad5a414c68cab.jpg"
+      },
+      {
+        "name": "Softwares de Auditoria Personalizados",
+        "details": "Desenvolvimento de softwares de auditoria para diversos setores.",
+        "image_link": "https://i.pinimg.com/564x/c2/df/d7/c2dfd7cb4dde959892836abbaa9dace0.jpg"
+      }
+    ]
+  }
+  

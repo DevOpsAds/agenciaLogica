@@ -1,0 +1,70 @@
+{% load static %}
+{% url 'about' as about_url %}
+{% url 'login' as login_url %}
+<style>
+  .portfolio-item {
+    position: relative;
+  }
+  .img-wrapper {
+    height: 250px; /* Defina a altura desejada para as imagens */
+    overflow: hidden;
+  }
+  .img-wrapper img {
+    width: 100%; /* Garante que a largura da imagem se ajuste automaticamente */
+    height: auto;
+    object-fit: cover; /* Mantém a proporção da imagem */
+  }
+  figcaption {
+    height: 120px; /* Defina a altura desejada para os figcaption */
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9; /* Cor de fundo opcional para os figcaption */
+    overflow: hidden; /* Evita que o conteúdo vaze */
+  }
+  figcaption h4 {
+    margin-top: 5px; /* Espaçamento superior reduzido */
+    margin-bottom: 5px; /* Espaçamento inferior reduzido */
+    font-size: 16px; /* Tamanho de fonte reduzido */
+  }
+  figcaption p {
+    margin-bottom: 0; /* Remove o espaçamento inferior do parágrafo */
+  }
+</style>
+
+<section id="works" class="works">
+  <div class="container">
+    <div class="section-heading">
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Projetos Recentes</h1>
+      <p class="wow fadeInDown" data-wow-delay=".5s">
+        Confira alguns dos meus projetos mais recentes que demonstram minhas habilidades e experiência.
+      </p>
+    </div>
+    <div class="row">
+      {% for product in products %}
+        <div class="col-md-4 col-sm-6">
+          <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="{{ product.delay }}ms">
+            <div class="img-wrapper">
+              <img src="{{ product.image_link }}" class="img-fluid" alt="{{ product.name }}">
+              <div class="overlay">
+                <div class="buttons">
+                  <a rel="gallery" class="fancybox" href="{{ product.image_link }}">Ver</a>
+                  <a target="_blank" href="{{ about_url }}">Detalhes</a>
+                </div>
+              </div>
+            </div>
+            <figcaption>
+              <h4>
+                <a href="{{ login_url }}">
+                  {{ product.name }}
+                </a>
+              </h4>
+              <p>
+                {{ product.details }}
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

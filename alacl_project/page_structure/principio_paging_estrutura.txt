@@ -1,0 +1,42 @@
+Cabeçalho:
+
+Logo ou Nome da Marca
+Menu de Navegação
+Botões de Chamada para Ação (por exemplo, Inscrever-se, Entrar)
+Seção Herói:
+
+Imagem Grande ou Vídeo
+Título ou Frase de Destaque
+Subtítulo ou Descrição Breve
+Botão de Chamada para Ação (por exemplo, Saiba Mais, Começar)
+Seção de Recursos ou Serviços:
+
+Lista de Recursos ou Serviços Oferecidos
+Ícone ou Imagem para Cada Recurso/Serviço
+Descrição Breve de Cada Recurso/Serviço
+Seção Sobre Nós:
+
+Visão Geral da Empresa
+Missão ou Valores
+Membros da Equipe ou História da Empresa
+Seção de Depoimentos:
+
+Citações de Clientes Satisfeitos
+Nomes e Títulos de Clientes
+Seção de Chamada para Ação:
+
+Incentivo para Tomar uma Ação (por exemplo, Inscrever-se para o Boletim, Fale Conosco)
+Seção de Últimas Postagens de Blog ou Notícias:
+
+Postagens de Blog ou Artigos Recentes
+Miniaturas ou Títulos
+Botão de Ler Mais
+Seção de Contato:
+
+Formulário de Contato
+Informações de Contato (por exemplo, Endereço, Número de Telefone, Email)
+Rodapé:
+
+Links de Navegação Adicionais
+Ícones/Links de Mídias Sociais
+Informações de Direitos Autorais

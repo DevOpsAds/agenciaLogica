@@ -1,0 +1,74 @@
+{% load static %}
+{% url 'login' as login_url %}
+{% url 'home' as home_url %}
+<style>
+  .portfolio-item {
+    position: relative;
+  }
+  .img-wrapper {
+    height: 452px;/* Defina a altura desejada para as imagens */
+    overflow: hidden;
+  }
+  .img-wrapper img {
+    width: 100%; /* Garante que a largura da imagem se ajuste automaticamente */
+    height: auto;
+    object-fit: cover; /* Mantém a proporção da imagem */
+  }
+  figcaption {
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9; /* Cor de fundo opcional para os figcaption */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 169px;
+  }
+  figcaption h4 {
+    margin-top: 0; /* Remove o espaçamento superior do título */
+    font-size: 16px; /* Tamanho do título ajustado */
+  }
+  figcaption p {
+    margin-bottom: 0; /* Remove o espaçamento inferior do parágrafo */
+  }
+</style>
+
+<section id="works" class="works">
+  <div class="container">
+    <div class="section-heading">
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Projetos Recentes</h1>
+      <p class="wow fadeInDown" data-wow-delay=".5s">
+        "O sucesso é a soma de pequenos esforços repetidos dia após dia."
+      </p>
+      </br>
+    </div>
+    <div class="row">
+      {% for experience in experiences %}
+      <div class="col-md-4 col-sm-6">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="{{ forloop.counter0 }}00ms">
+          <div class="img-wrapper">
+            <img src="{{ experience.image }}" class="img-fluid" alt="{{ experience.title }}">
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="https://inscricoes.unicesumar.edu.br/curso/analise-e-desenvolvimento-de-sistemas">Saber Mais</a>
+            
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="{{ login_url }}">
+                {{ experience.title }}
+              </a>
+            </h4>
+            <p>
+              {{ experience.description }}
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
